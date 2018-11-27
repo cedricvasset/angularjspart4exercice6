@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" ng-app>
+<!--déclaration de la variable qui sera utilisée sur la page ng-app  fonction-->
+<head>
+  <meta charset="utf-8" />
+  <title>exercice 6 partie 4 angularjs</title>
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body >
+  <div class="">
+    <button ng-click="showme=true" type="button" name="button">Neptune</button>
+    <button ng-click="showme=false" type="button" name="button">Mars</button>
+  </div>
+  <div class="texte1">
+    <p ng-hide="showme">Mars (prononcé en français : /maʁs/) est la quatrième planète par ordre de distance croissante au Soleil et la deuxième par masse et par taille croissantes. Son éloignement au Soleil est compris entre 1,381 et 1,666 UA (206,6 à 249,2 millions de kilomètres), avec une période orbitale de 669,58 jours martiens (686,71 jours terrestres). </p>
+  </div>
+  <div class="texte2">
+    <p ng-show="showme">Neptune est la huitième et dernière planète du Système solaire par distance croissante au Soleil1.
+
+Neptune orbite autour du Soleil à une distance d'environ 30 UA, avec une excentricité orbitale moitié moindre que celle de la Terre, en bouclant une révolution complète en 164,79 ans. C'est la troisième planète du Système solaire par masse décroissante — elle est 17 fois plus massive que la Terre et 19 fois moins massive que Jupiter — et la quatrième par taille décroissante : Neptune est en effet à la fois un peu plus massive mais un peu plus petite qu'Uranus. </p>
+  </div>
+</body>
+</html>
